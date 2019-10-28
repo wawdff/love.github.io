@@ -46,6 +46,9 @@
       }
     </script>-->
 </head>
+<canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 1;pointer-events: none;"></canvas>
+<script type="text/javascript" src="/js/fireworks/anime.min.js"></script>
+<script type="text/javasecipt" src="/js/fireworks/fireworks.js"></script>
 <body>
     <!-- 背景轮播图功能 -->
     <section class="hidden-xs">
@@ -125,20 +128,44 @@
                 
                 
                 
-                <li class="">
-                    <a href="/categories">
+                <li class="dropdown">
+                    <!-- TODO 添加hover dropdown效果 -->
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false" data-hover="dropdown">
                         <i class="fa fa-list"></i>分类
                     </a>
+                    <ul class="dropdown-menu">
+                        
+                        
+                        <li>
+                            <a href="/categories/%E7%BC%96%E7%A8%8B/">编程</a>
+                        </li>
+                        
+                        
+                        
+                    </ul>
                 </li>
                 
                 
                 
                 
                 
-                <li class="">
-                    <a href="/tags">
+                <li class="dropdown">
+                    <!-- TODO 添加hover dropdown效果 -->
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false" data-hover="dropdown">
                         <i class="fa fa-tags"></i>标签
                     </a>
+                    <ul class="dropdown-menu">
+                        
+                        
+                        <li>
+                            <a href="/tags/Python%E7%88%AC%E8%99%AB/">Python爬虫</a>
+                        </li>
+                        
+                        
+                        
+                    </ul>
                 </li>
                 
                 
@@ -202,7 +229,7 @@
                 <a href="/2019/10/27/my-frist-blog/">
                     <div class="img">
                         
-                        <img src="/imgs/preview/preview2.jpg" alt="my_frist_blog">
+                        <img src="/imgs/preview/preview1.jpg" alt="my_frist_blog">
                     </div>
                     <div class="info">
                         
@@ -277,7 +304,7 @@
                 <a href="/2019/10/24/hello-world/">
                     <div class="img">
                         
-                        <img src="/imgs/preview/preview2.jpg" alt="Hello World">
+                        <img src="/imgs/preview/preview3.jpg" alt="Hello World">
                     </div>
                     <div class="info">
                         
@@ -311,12 +338,105 @@
             <p style="text-align: center;">
                 <a href="/2019/10/24/hello-world/">
                     
-                    <img src="/imgs/preview/preview4.jpg" alt="Hello World">
+                    <img src="/imgs/preview/preview3.jpg" alt="Hello World">
                 </a>
             </p>
         </div>
         
         <a class="btn btn-danger pull-right read-more btn-block" href="/2019/10/24/hello-world/">
+            阅读全文
+            <!--<span class="badge">739</span>-->
+        </a>
+    </section>
+</div>
+     
+     <div class="article well clearfix article-body article-excerpt" data-aos="flip-up">
+    
+    <div class="data-article hidden-xs">
+        <span class="month">10月</span>
+        <span class="day">18</span>
+    </div>
+    <!-- 大型设备文章 -->
+    <section class="hidden-xs">
+        <div class="title-article">
+            <h1>
+                <a href="/2017/10/18/weibo-login/">
+                    <span>Python3 模拟登录新浪微博</span>
+                </a>
+            </h1>
+        </div>
+        <div class="tag-article">
+            
+            <span class="label label-gal">
+                <i class="fa fa-tags"></i>
+                
+                <a href="/tags/Python%E7%88%AC%E8%99%AB/">Python爬虫</a>
+                
+            </span>
+            
+            
+            <!-- TODO 添加评论统计 -->
+            <!--<span class="label label-gal">
+                <i class="fa fa-comments"></i>
+                <a href="/2017/10/18/weibo-login/#comments">739</a>
+            </span>-->
+        </div>
+        <div class="alert alert-gal article-body content-article">
+            <div class="item">
+                <a href="/2017/10/18/weibo-login/">
+                    <div class="img">
+                        
+                        <img src="/imgs/preview/preview1.jpg" alt="Python3 模拟登录新浪微博">
+                    </div>
+                    <div class="info">
+                        <p><code>在无声的世界里，默默地等待着他的出现 ----《声之形》</code></p>
+<p>大概有两个月左右没更新过文章了，没想到还会有人来参观这个博客～访问人数在逐渐增加，这一点我挺开心的～最近也挺忙的……开学了不说～我还报了驾校，也快考科目一了，练习倒库练了一个礼拜，前一个小时倒进去没啥问题的，过了几个小时后又进不去了…….唉。行～废话也不多说，这次我介绍一下如何用Python来登录新浪微博~</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="visible-xs">
+        <div class="title-article">
+            <center>
+                <h4>
+                    <a href="/2017/10/18/weibo-login/">
+                        <span>Python3 模拟登录新浪微博</span>
+                    </a>
+                </h4>
+            </center>
+        </div>
+        <p></p>
+        <center>
+            <i class="fa fa-calendar"></i> 2017-10-18
+        </center>
+        <p></p>
+        <p></p>
+        <center>
+            
+            <i class="fa fa-tags"></i>
+            
+            <a href="/tags/Python%E7%88%AC%E8%99%AB/">Python爬虫</a>
+            
+            
+            
+        </center>
+        <p></p>
+        <div class="alert alert-gal article-body content-article">
+            <p style="text-align: center;">
+                <a href="/2017/10/18/weibo-login/">
+                    
+                    <img src="/imgs/preview/preview3.jpg" alt="Python3 模拟登录新浪微博">
+                </a>
+            </p>
+        </div>
+        
+        <div class="alert alert-gal">
+            <p><code>在无声的世界里，默默地等待着他的出现 ----《声之形》</code></p>
+<p>大概有两个月左右没更新过文章了，没想到还会有人来参观这个博客～访问人数在逐渐增加，这一点我挺开心的～最近也挺忙的……开学了不说～我还报了驾校，也快考科目一了，练习倒库练了一个礼拜，前一个小时倒进去没啥问题的，过了几个小时后又进不去了…….唉。行～废话也不多说，这次我介绍一下如何用Python来登录新浪微博~</p>
+        </div>
+        
+        <a class="btn btn-danger pull-right read-more btn-block" href="/2017/10/18/weibo-login/">
             阅读全文
             <!--<span class="badge">739</span>-->
         </a>
@@ -417,6 +537,12 @@
                 </span>
             </li>
             
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/2017/10/18/weibo-login/">Python3 模拟登录新浪微博</a>
+                </span>
+            </li>
+            
         </ul>
     </div>
 </aside>
@@ -435,13 +561,19 @@
             
             <li class="list-group-item">
                 <span class="post-title">
-                    <a href="/2019/10/24/hello-world/">Hello World</a>
+                    <a href="/2019/10/27/my-frist-blog/">my_frist_blog</a>
                 </span>
             </li>
             
             <li class="list-group-item">
                 <span class="post-title">
-                    <a href="/2019/10/27/my-frist-blog/">my_frist_blog</a>
+                    <a href="/2017/10/18/weibo-login/">Python3 模拟登录新浪微博</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/2019/10/24/hello-world/">Hello World</a>
                 </span>
             </li>
             
@@ -473,6 +605,8 @@
             <div class="tab-content">
                 
                 <div class="cloud-tags tab-pane nav bs-sidenav fade" id="sidebar-tags">
+    
+    <a href="/tags/Python%E7%88%AC%E8%99%AB/" style="font-size: 9.492610747197642px;" class="tag-cloud-link">Python爬虫</a>
     
 </div>
                 
